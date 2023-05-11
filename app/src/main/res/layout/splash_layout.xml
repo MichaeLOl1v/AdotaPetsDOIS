@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_gravity="center_vertical"
+    android:background="#5A97D8"
     tools:context=".Splash_Activity">
 
     <ImageView
@@ -13,14 +14,18 @@
         android:layout_height="200dp"
         android:layout_gravity="center_horizontal"
         android:scaleType="centerInside"
-        android:src="@drawable/logoCAT"/>
+        android:src="@drawable/CATloGo"/>
 
     <TextView
+        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="Adota-Pet"
-        android:textSize="40sp"
+        android:textSize="60sp"
+        android:textColor="#FFFFFF"
         android:fontFamily="@font/Zeyada"/>
+
+
 
 </LinearLayout>
