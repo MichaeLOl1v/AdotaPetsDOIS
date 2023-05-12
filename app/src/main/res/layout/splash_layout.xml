@@ -24,7 +24,7 @@
         android:text="Adota-Pet"
         android:textSize="60sp"
         android:textColor="#FFFFFF"
-        android:fontFamily="@font/Zeyada"/>
+        android:fontFamily="@font/zeyada"/>
 
     <ProgressBar
         android:layout_width="wrap_content"
