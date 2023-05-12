@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
+    android:background="#5A97D8"
     tools:context=".login_Activity">
 
     <ImageView
@@ -32,6 +33,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Insira o usuário"
+            android:maxLength="100"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="senha"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        android:padding="10dp"
+        app:boxStrokeColor="#000"
+        app:boxBackgroundColor="#fff"
+        app:boxBackgroundMode="outline"
+        app:startIconDrawable="@drawable/baseline_lock">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Insira a senha"
             android:maxLength="100"/>
 
     </com.google.android.material.textfield.TextInputLayout>
