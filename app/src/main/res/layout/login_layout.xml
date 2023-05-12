@@ -71,7 +71,17 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
-    </LinearLayout>
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:fontFamily="@font/Zeyada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Não tem conta? Cadastre-se"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"/>
 
+    </LinearLayout>
 
 </LinearLayout>
